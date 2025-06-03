@@ -53,8 +53,6 @@ total = (valor1 >= valor2) // Vai comparar se é maior ou igual
 total = (valor1 <= valor2) // Vai comparar se é menor ou igual
 total = (valor1 != valor2) // Vai comparar se é diferente
 
-
-
 alert(total)
 
 5) Operadores Condicional (Ternário)
@@ -66,12 +64,13 @@ alert("Ele(a)" + " " + carteiraMotorista + " " + "e a idade dele(a) é: " + idad
 
 6) Operadores Lógicos
 
-
-*/
-
 var idade, eleitor, resultado;
 idade = 71;
 eleitor = (idade < 18) ? "Não, Eleitor" : "Sim, Eleitor";
-resultado = !(idade === 65); // true // false
+// resultado = (idade > 60 && idade < 70 ); // operador &&
+// resultado = (idade || 65); // operador ||
+resultado = !(idade === 65); // operador !
 alert("A pessoa pode ser eleitor? " + eleitor);
 alert("A idade da pessoa é maior que 65 anos? " + resultado);
+
+*/
