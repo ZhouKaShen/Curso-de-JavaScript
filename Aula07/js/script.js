@@ -48,3 +48,8 @@ function adicionaTexto() {
     p.append("O mouse moveu<br>");
     
 }
+
+function limpaTexto() {
+    document.getElementById("campoTexto").value = "";
+    
+}
